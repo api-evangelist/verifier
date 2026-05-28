@@ -1,0 +1,32 @@
+aid: verifier
+name: Verifier
+description: "Verifies that a given email is real"
+url: https://verifier.meetchopra.com/docs#/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Email"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Email
+  - Public APIs
+apis:
+  - name: Verifier
+    description: "Verifies that a given email is real"
+    humanURL: https://verifier.meetchopra.com/docs#/
+    baseURL: https://verifier.meetchopra.com/docs#/
+    tags:
+      - Email
+    properties:
+      - type: Documentation
+        url: https://verifier.meetchopra.com/docs#/
+common:
+  - type: Website
+    url: https://verifier.meetchopra.com/docs#/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
